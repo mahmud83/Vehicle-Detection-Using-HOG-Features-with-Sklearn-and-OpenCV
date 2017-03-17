@@ -202,7 +202,9 @@ visualize(fig,5,2,images, titles)
 ### Video Implementation
 Here is a link to my video:
 
-    https://youtu.be/MbaxLvk0XH8An attempt to dismiss false positive is made using thresholding on heatmaps. This relies on the classifier not detecting the false positive multiple times. The thresholding values are purely selected through trial and error.
+    https://youtu.be/MbaxLvk0XH8
+    
+An attempt to dismiss false positive is made using thresholding on heatmaps. This relies on the classifier not detecting the false positive multiple times. The thresholding values are purely selected through trial and error.
 
 The classifer is actually detecting cars on the other side of the road as well. Below are a few examples of how the detection looks in a heat map. Code blocks 12 and 13 use thresholding but the function is in block 11. 
 
